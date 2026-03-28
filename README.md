@@ -20,19 +20,24 @@ Through this project, I explored topics like the origin of Git, its license, eth
 
 ## Scripts Included
 ### 1. Script 1 — System Identity Report
-Displays basic system information like kernel version, user name, uptime, and date.
+This script displays basic system information such as kernel version, current user, system uptime, and date. It works like a simple welcome screen for the Linux system.  
+It uses commands like `uname`, `whoami`, and `uptime`, along with variables and command substitution. This script helped me understand how system information can be accessed and displayed using shell scripting.
 
 ### 2. Script 2 — FOSS Package Inspector
-Checks whether Git is installed and shows its version and details.
+This script checks whether Git is installed on the system and displays details like version and description. It uses commands like `dpkg -l` and `grep` to fetch package information.  
+It also includes conditional statements (`if-else`) and a `case` block to print a short description of the software. This script helped me understand how to work with packages in Linux.
 
 ### 3. Script 3 — Disk and Permission Auditor
-Analyzes important directories and displays their size, permissions, and ownership.
+This script loops through important directories such as `/etc`, `/var/log`, and `/home` and displays their size, permissions, and ownership.  
+It uses a `for` loop along with commands like `du`, `ls -ld`, `awk`, and `cut`. Through this script, I learned how to analyze directories and extract useful information from command outputs.
 
 ### 4. Script 4 — Log File Analyzer
-Reads a log file and counts how many times a specific keyword (like "error") appears.
+This script reads a log file and counts how many times a specific keyword (like "error") appears. It processes the file line by line using a `while read` loop and uses `grep` for matching.  
+It also prints a summary along with the last few matching lines. This script helped me understand file handling, loops, and working with command-line arguments.
 
 ### 5. Script 5 — Open Source Manifesto Generator
-Takes user input and generates a small personalized open-source manifesto in a text file.
+This script takes user input through the terminal and generates a small personalized open-source manifesto. The output is saved into a text file.  
+It uses the `read` command, variables, string handling, and file redirection (`>`). This script gave me a basic idea of how interactive scripts work and how output can be stored in files.
 
 ## Steps To Open and run Scripts
 Make sure you are using a Linux environment (Ubuntu/WSL).
