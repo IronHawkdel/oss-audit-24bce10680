@@ -55,4 +55,4 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ./script5.sh
 ```
 ## Additional Information
-Ellaborated information can be found in the report in this repository.
+Ellaborated information can be found in the report.
